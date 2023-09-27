@@ -1,4 +1,4 @@
-const searchInput = document.getElementById("seach-input")
+const searchInput = document.getElementById("search-input")
 const searchButton = document.getElementById("search-button")
 const countryList = document.getElementById("country-list")
 
@@ -11,10 +11,11 @@ function searchCountries(country){
 
 searchButton.addEventListener('click', function () {
     const countryText = searchInput.value.trim()
-    console.log(countryText)
-    if (countryText.lenght > 2) {
+    console.log(countryText);
+
+    if(countryText.length > 2){
         searchCountries(countryText)
     }else{
-        countryList = '<p>Enter at least 3 characters</p>'
+        countryList.innerHTML = '<p>Enter at least 2 characters to search</p>'
     }
 })
