@@ -1,0 +1,35 @@
+{
+  "name": "5-api-ejemplo-sql",
+  "version": "1.0.0",
+  "description": "API RESTfull usando Express y conectada a una BD (MySQL)",
+  "main": "index.js",
+  "scripts": {
+    "production": "babel-node -- preset=babel/preset-env",
+    "dev": "nodemon --execute npm run production src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "RESTfull",
+    "MySQL",
+    "Services",
+    "Controllers",
+    "DataBase"
+  ],
+  "author": "bleesamperio",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20",
+    "Babel": "^0.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "promise-mysql": "^5.2.0"
+  }
+}

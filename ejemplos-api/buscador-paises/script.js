@@ -25,7 +25,7 @@ function searchCountries(country){
                 <p>Capital: ${country.capital.toString()}</p>
                 <p>Currencies: ${name_currenciess}</p>
                 <p>Languages: ${languages}</p>
-                <img src='${country.flag.png}'height=130px width=160px/> 
+                <img src='${country.flags.png}' height=130px width=200px />
 
                 ` //Cierre de texto concatenado
                 countryList.appendChild(countryCard)
