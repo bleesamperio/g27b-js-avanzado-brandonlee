@@ -4,8 +4,8 @@
   "description": "API RESTfull usando Express y conectada a una BD (MySQL)",
   "main": "index.js",
   "scripts": {
-    "production": "babel-node -- preset=babel/preset-env",
-    "dev": "nodemon --execute npm run production src/index.js",
+    "production": "babel-node --preset=@babel/preset-env",
+    "dev": "nodemon --exec npm run production src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
