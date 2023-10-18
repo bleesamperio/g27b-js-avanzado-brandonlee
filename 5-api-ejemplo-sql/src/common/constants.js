@@ -1,6 +1,6 @@
 module.exports={
-    HOST: '0.0.0.0',
-    DB: '0.0.0.0',
-    USER:'0.0.0.0',
-    PASSWORD:'0.0.0.0'
-};
+    HOST: '195.179.239.51',
+    DB:'u917498081_devf',
+    USER: 'u917498081_alumnis',
+    PASSWORD: 'QANcfG~M7&t'
+}

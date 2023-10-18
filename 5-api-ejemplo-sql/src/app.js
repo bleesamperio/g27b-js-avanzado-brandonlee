@@ -14,6 +14,6 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 /** Importamos nuestras rutas de la API (endpoint) de productos.routes */
-app.use("/api-restfull/productos", productRoutes);
+app.use("/api-restful/products", productRoutes);
 
 export default app;
